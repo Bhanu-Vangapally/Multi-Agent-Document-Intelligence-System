@@ -87,7 +87,7 @@ An AI-powered document intelligence platform that uses **Multi-Agent Orchestrati
 
 ## 📂 Project Structure
 
-![Uploading image.png…]()
+<img width="480" height="211" alt="image" src="https://github.com/user-attachments/assets/66a70a6f-6f37-49aa-9513-bd4039e59b41" />
 
 ---
 
