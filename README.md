@@ -102,10 +102,20 @@ An AI-powered document intelligence platform that uses **Multi-Agent Orchestrati
 git clone https://github.com/Bhanu-Vangapally/Multi-Agent-Document-Intelligence-System.git
 cd Multi-Agent-Document-Intelligence-System
 
-### 2️⃣ Create Virtual Environment
+<img width="338" height="39" alt="image" src="https://github.com/user-attachments/assets/7a8a2526-f522-4a80-a71e-61b1349c7dc9" />
 
 ```bash
 python -m venv venv
 venv\Scripts\activate
+
+<img width="272" height="46" alt="image" src="https://github.com/user-attachments/assets/967ba890-5b4d-478f-a04c-6b6fddae6492" />
+
+```bash
+pip install -r requirements.txt
+
+<img width="403" height="79" alt="image" src="https://github.com/user-attachments/assets/349d4700-dcc5-4df8-9148-c75a93aca60f" />
+
+```bash
+OPENAI_API_KEY=your_api_key_here
 
 
