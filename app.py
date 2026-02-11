@@ -30,7 +30,7 @@ if pdf_file and st.button("Run Multi-Agent Analysis"):
         st.session_state.memory["document_text"] = document_text
 
         try:
-            api_url = "http://localhost:8000/analyze"
+            api_url = "https://ai-engine-backend-hnq7.onrender.com/analyze"
             response = requests.post(api_url, json={"document_text": document_text})
             
             if response.status_code == 200:
