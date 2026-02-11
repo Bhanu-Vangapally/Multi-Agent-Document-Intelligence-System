@@ -3,12 +3,12 @@ import json
 from typing import Any
 
 from dotenv import load_dotenv
-import os
+
 load_dotenv()
 
-api_key = os.getenv("OPENAI_API_KEY")
 if not os.getenv("OPENAI_API_KEY"):
-    raise ValueError("OPENAI_API_KEY not found in environment variables")
+    raise RuntimeError("OPENAI_API_KEY missing")
+
 
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage
