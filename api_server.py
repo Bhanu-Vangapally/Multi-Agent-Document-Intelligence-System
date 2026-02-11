@@ -44,6 +44,9 @@ async def analyze_document(request: AnalyzeRequest):
         import traceback
         traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
+@app.get("/")
+def home():
+    return {"message": "AI Engine Backend Running"}
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
