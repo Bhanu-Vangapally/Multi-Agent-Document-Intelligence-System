@@ -103,9 +103,12 @@ git clone https://github.com/Bhanu-Vangapally/Multi-Agent-Document-Intelligence-
 cd Multi-Agent-Document-Intelligence-System
 
 ---
+## ⚙️ Local Setup
 
 ### 2️⃣ Create Virtual Environment
 
+```bash
 python -m venv venv
 venv\Scripts\activate
+
 
