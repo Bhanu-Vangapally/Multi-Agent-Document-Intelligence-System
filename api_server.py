@@ -47,6 +47,9 @@ async def analyze_document(request: AnalyzeRequest):
 @app.get("/")
 def home():
     return {"message": "AI Engine Backend Running"}
+@app.get("/")
+def root():
+    return {"status": "Backend running successfully"}
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
