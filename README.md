@@ -100,7 +100,7 @@ An AI-powered document intelligence platform that uses **Multi-Agent Orchestrati
 
 ```bash
 git clone https://github.com/Bhanu-Vangapally/Multi-Agent-Document-Intelligence-System.git
-cd Multi-Agent-Document-Intelligence-System
+cd Multi-Agent-Document-Intelligence-System .
 
 ---
 
